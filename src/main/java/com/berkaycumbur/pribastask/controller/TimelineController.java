@@ -44,6 +44,7 @@ public class TimelineController {
             existingTimeline.setTitle(updatedTimeline.getTitle());
             existingTimeline.setDescription(updatedTimeline.getDescription());
             existingTimeline.setTags(updatedTimeline.getTags());
+            existingTimeline.setMoments(updatedTimeline.getMoments());
             // Update other fields as needed
 
             repo.save(existingTimeline);
